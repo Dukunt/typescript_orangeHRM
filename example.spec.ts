@@ -8,6 +8,7 @@ test.beforeEach(async ({page}) => {
 });
 test.afterEach(async ({page}) => {
   console.log('Page has been successfully opened');
+  console.log('Tests uploaded to github through UI'); 
 });
 
 test ('has title',async ({ page }) => {
